@@ -5,7 +5,7 @@ body {background-color: #505050;}
 	background-color: #909090;
 	border-color: #909090;
 	border-radius: 10px;
-	box-shadow: 10px;
+	box-shadow: 5px 10px 10px;
 }
 
 .center {
@@ -14,7 +14,12 @@ body {background-color: #505050;}
 	margin-right: auto;
 }
 
-.flex-container {
+.row {
 	display: flex;
-	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.column {
+	padding: 10px;
 }

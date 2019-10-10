@@ -3,7 +3,7 @@
 while (1)
 {
 	echo "Enter a number: ";
-	$input = rtrim(fgets(STDIN));
+	$input = trim(fgets(STDIN));
 	$num = 1;
 	$i = 0;
 	if (feof(STDIN))

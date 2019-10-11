@@ -4,7 +4,7 @@ if ($argc < 2)
 	exit;
 unset($argv[0]);
 $final = implode(" ", $argv);
-$final = explode(" ", $final);
+$final = preg_split('/\s+/', $final);
 sort($final);
 usort($final, 'strcasecmp');
 $cnt = 0;
